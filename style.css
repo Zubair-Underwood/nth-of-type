@@ -1,0 +1,21 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent>button:nth-of-type(1) {
+
+    background: blue;
+}
+
+.parent .button-group button:nth-of-type(1) {
+
+    background: blueviolet;
+}
+
+.parent .button-group button:nth-of-type(2) {
+
+    background: greenyellow;
+}
